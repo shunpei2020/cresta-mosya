@@ -1,0 +1,291 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+  line-height:1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/* end reset */
+
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: '遊ゴシック体';
+}
+
+header{
+  position: relative;
+  width: 100%;
+  height: 520px;
+  color: #fff;
+}
+
+.logo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  z-index: 5;
+  color: #fff;
+  padding: 15px 10px;
+}
+.mark1{
+  height: 34px;
+}
+.mark2{
+  height: 20px;
+  padding-top: 4px;
+}
+.mark3{
+  height: 10px;
+  padding-top: 14px;
+  margin-left: 5px;
+}
+.menu{
+  display: flex;
+  position: absolute;
+  float: right;
+  top: 0;
+  right: 0;
+  z-index: 5;
+  color: #fff;
+  padding: 20px 20px;
+  align-items: center;
+  font-family: 'Montserrat';
+}
+.menu p{
+  padding-left: 5px;
+  font-size: 12px;
+}
+
+/* about */
+.about-head1{
+  width: 287px;
+  height: 387px;
+  background-image: url(img/マスクグループ\ 6.png);
+  background-color: rgba(0,0,0,.3);
+  background-blend-mode: darken;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.about-head2{
+  background-color: #222222;
+  width: 198px;
+  height: 449px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+.about-catch{
+  position: absolute;
+  z-index: 6;
+  top: 155px;
+  right: 30px;
+}
+.about-catch h1{
+  font-family: 'Montserrat';
+  font-size: 52px;
+  margin-bottom: 15px;
+}
+.about-catch p{
+  font-family: 'Noto', 'Sans' ,'JP';
+  z-index: 6;
+}
+
+.sec01{
+  margin-bottom: 200px;
+}
+.vision{
+  width: 345px;
+  margin-left: 15px;
+}
+.vision h2{
+  font-family: 'Montserrat';
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #333333;
+  letter-spacing: .1em;
+}
+.vision h3{
+  font-size: 24px;
+  font-family: 'Noto', 'Sans';
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+.vision p{
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.sec02{
+margin-bottom: 60px;
+}
+.message{
+  position: relative;
+}
+.ceo{
+  background-color: #f0f0f0;
+  width: 345px;
+  height: 799px;
+  margin-left: 15px;
+}
+.ceo h2{
+  font-family: 'Montserrat';
+  font-size: 31px;
+  letter-spacing: .05em;
+  padding: 150px 30px 0;
+  margin-bottom: 30px;
+  color: #333333;
+}
+.ceo div{
+  width: 288px;
+  margin: 0 auto;
+}
+.ceo p{
+  margin-bottom: 30px;
+  font-size: 14px;
+  line-height: 1.8em;
+}
+.message img{
+  width: 340px;
+  height: 230px;
+  position: absolute;
+  top: -120px;
+}
+.company{
+  padding: 10px;
+}
+.company h2{
+  font-family: 'Montserrat';
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #333333;
+  letter-spacing: .1em;
+}
+.detail{
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+.detail div{
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px 0;
+}
+.detail div + div{
+  border-top: 1px solid #dddddd;
+}
+.detail p{
+  width: 50%;
+  font-size: 14px;
+}
+.map{
+  margin: 30px auto;
+  width: 345px;
+  height: 470px;
+  overflow: auto;
+}
+
+footer{
+  background-color: #525252;
+  text-align: center;
+  font-family: 'Montserrat';
+  height: 50px;
+}
+footer p{
+  line-height: 50px;
+  color: #fff;
+  font-size: 10px;
+}
