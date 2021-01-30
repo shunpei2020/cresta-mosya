@@ -108,7 +108,7 @@ body{
 header{
   position: relative;
   width: 100%;
-  height: 520px;
+  height: 425px;
   color: #fff;
 }
 .nav-links{
@@ -155,6 +155,7 @@ header{
 .nav-active{
   transform: translateX(0%);
 }
+
 .logo{
   position: absolute;
   top: 0;
@@ -192,227 +193,205 @@ header{
   padding-left: 5px;
   font-size: 12px;
 }
-.about-head1{
+.contact-head1{
   width: 80%;
-  height: 387px;
-  background-image: url(img/マスクグループ\ 6.png);
-  background-size: cover;
+  height: 270px;
+  background-image: url(img/マスクグループ\ 13.png);
+  background-color: rgba(0, 0, 0, .3);
   background-position: center;
-  background-color: rgba(0,0,0,.3);
+  background-repeat: no-repeat;
+  background-size: cover;
   background-blend-mode: darken;
   position: absolute;
   top: 0;
   left: 0;
   z-index: 2;
 }
-.about-head2{
+.contact-head2{
   background-color: #222222;
   width: 55%;
-  height: 449px;
+  height: 365px;
   position: absolute;
   top: 0;
   right: 0;
   z-index: 1;
 }
-.about-catch{
+.contact-catch{
   position: absolute;
   z-index: 6;
-  top: 155px;
-  right: 30px;
+  top: 130px;
+  right: 20px;
 }
-.about-catch h1{
+.contact-catch h1{
   font-family: 'Montserrat';
   font-size: 52px;
+  letter-spacing: .05em;
   margin-bottom: 15px;
 }
-.about-catch p{
-  font-family: 'Noto', 'Sans' ,'JP';
+.contact-catch p{
+  text-align: right;
+}
+.detail{
+  width: 345px;
+  margin: 40px auto;
+  font-size: 14px;
+  line-height: 1.8em;
 }
 
 main{
   max-width: 345px;
   margin: 0 auto;
-  position: relative;
 }
-.sec01{
-  margin-bottom: 200px;
-}
-.vision{
+form{
   width: 100%;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
+  margin: 20px auto;
 }
-.vision h2{
-  font-family: 'Montserrat';
-  font-size: 32px;
-  margin-bottom: 30px;
+form h3{
   color: #333333;
-  letter-spacing: .1em;
+  font-size: 16px;
+  margin-bottom: 10px;
 }
-.vision h3{
-  font-size: 24px;
-  font-family: 'Noto', 'Sans';
-  font-weight: normal;
-  margin-bottom: 30px;
+form h3 span{
+  font-weight: 100;
+  font-size: 12px;
+  color: #fff;
+  background-color: #333333;
+  padding: 3px;
+  margin-left: 5px;
 }
-.vision p{
-  margin-bottom: 30px;
-  font-size: 14px;
+input[type='radio']{
+  margin: 10px 10px;
 }
-
-.sec02{
-  margin-bottom: 60px;
+.text p{
+  margin: 35px 0 10px;
 }
-.ceo{
-  background-color: #f0f0f0;
+.text input{
   width: 100%;
-  height: 799px;
-  margin-left: 15px;
+  height: 48px;
 }
-.ceo h2{
+.text span{
+  font-weight: 100;
+  font-size: 12px;
+  color: #fff;
+  background-color: #333333;
+  padding: 3px;
+  margin-left: 5px;
+}
+.text textarea{
+  width: 100%;
+  height: 210px;
+}
+form > p{
   font-family: 'Montserrat';
-  font-size: 31px;
-  letter-spacing: .05em;
-  padding-top: 150px;
-  margin-bottom: 30px;
+  margin: 35px 0 10px;
+}
+.policy{
+  width: 345px;
+  height: 226px;
+  border: 1px solid#525252;
+  overflow: scroll;
+  padding: 10px 2px;
+  margin-bottom: 35px;
   color: #333333;
 }
-.ceo div{
-  width: 288px;
-  margin: 0 auto;
-}
-.ceo p{
-  margin-bottom: 30px;
-  font-size: 14px;
+.policy p{
   line-height: 1.8em;
 }
-.message img{
-  width: 340px;
-  height: 230px;
-  position: absolute;
-  top: 480px;
-  left: -30px;
+.policy p + p{
+  margin-top: 20px;
 }
-.company{
-  padding: 10px;
+
+.agree{
+  position: relative;
+  height: 200px;
 }
-.company h2{
-  font-family: 'Montserrat';
-  font-size: 32px;
-  margin-bottom: 40px;
-  color: #333333;
-  letter-spacing: .1em;
-}
-.detail{
-  border-top: 1px solid #dddddd;
-  border-bottom: 1px solid #dddddd;
-}
-.detail div{
-  display: flex;
-  justify-content: flex-start;
-  padding: 20px 0;
-}
-.detail div + div{
-  border-top: 1px solid #dddddd;
-}
-.detail p{
-  width: 50%;
+
+.btn{
+  width: 160px;
+  height: 36px;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 35px auto 50px;
+  background-color: #000;
+  color: #fff;
+  border: none;
   font-size: 14px;
-}
-.map{
-  margin: 30px auto;
-  width: 100%;
-  height: 470px;
-  overflow: auto;
+  position: absolute;
 }
 
 footer{
   background-color: #525252;
   text-align: center;
   font-family: 'Montserrat';
-  width: 100%;
   height: 50px;
+  width: 100%;
 }
 footer p{
   line-height: 50px;
   color: #fff;
   font-size: 10px;
 }
-
-@media (min-width: 480px) {
+@media  (min-width: 480px) {
   header{
-    height: 700px;
+    height: 630px;
   }
-  .about-head1{
+  .contact-head1{
     height: 529px;
-    background-image: url(img/マスクグループ\ 6.png);
+    background-image: url(img/マスクグループ\ 12@2x.png);
   }
-  .about-head2{
+  .contact-head2{
     height: 615px;
   }
-  .about-catch{
-    right: 100px;
+  .contact-catch{
+    right: 40px;
   }
-  .about-catch h1{
-    letter-spacing: .05em;
+  .contact-catch p{
+    text-align: left;
   }
-  .about-catch p{
+  .detail{
+    margin-top: 80px;
+    width: 668px;
     font-size: 16px;
   }
   main{
-    max-width: 708px;
+    max-width: 668px;
   }
-  .vision{
-    transform: translateX(-25%);
+  br{
+    display: none;
   }
-  .ceo{
-    width: 494px;
-    height: 687px;
-    margin-left: auto;
+  .policy{
+    width: 668px;
   }
-  .ceo div{
-    margin: 0 auto;
-    width: 415px;
-    height: 431px;
-  }
-  .ceo p{
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-  .map{
-    margin-bottom: 50px;
+  .agree{
+    text-align: center;
   }
 }
-
 @media (min-width: 768px) {
   header{
-    height: 700px;
+    height: 540px;
   }
-  .about-head1{
+  .contact-head1{
     height: 387px;
-    background-image: url(img/マスクグループ\ 6@2x.png);
+    background-image: url(img/マスクグループ\ 11@2x.png);
   }
-  .about-head2{
-    height: 464px;
+  .contact-head2{
+    height: 451px;
   }
-  .about-catch{
-    right: 100px;
+  .contact-catch{
+    right: 155px;
   }
-  .about-catch h1{
-    letter-spacing: .05em;
+  .contact-catch h1{
+    font-size: 72px;
   }
-  .about-catch p{
-    font-size: 16px;
+  .contact-catch p{
+    text-align: left;
+    font-size: 20px;
   }
   main{
-    max-width: 1100px;
+    max-width: 700px;
   }
-  .ceo{
-    width: 756px;
-  }
-  .message img{
-    width: 420px;
-    height: 282px;
+  .policy{
+    width: 700px;
   }
 }
