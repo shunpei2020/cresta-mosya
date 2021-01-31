@@ -111,50 +111,6 @@ header{
   height: 425px;
   color: #fff;
 }
-.nav-links{
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 100vh;
-  background-color: rgba(34, 34, 34, .9);
-  width: 40%;
-  transform: translateX(100%);
-  transition: transform .5s ease-in;
-  z-index: 8;
-}
-.nav-links div{
-  text-align: right;
-}
-.menu .i{
-  font-size: 30px;
-  padding: 10px;
-}
-.cancel{
-  font-size: 30px;
-  padding: 10px;
-}
-.nav-links ul{
-  display: flex;
-  flex-direction: column;
-  width: 60%;
-  margin: 70px auto;
-  text-align: center;
-}
-.nav-links img{
-  height: 50px;
-}
-.nav-links li{
-  list-style: none;
-  margin-top: 30px;
-  letter-spacing: .1em;
-}
-.nav-links a{
-  text-decoration: none;
-  color: #fff;
-}
-.nav-active{
-  transform: translateX(0%);
-}
 
 .logo{
   position: absolute;
@@ -179,6 +135,7 @@ header{
 }
 .menu{
   display: flex;
+  justify-content: center;
   position: absolute;
   float: right;
   top: 0;
@@ -189,6 +146,9 @@ header{
   align-items: center;
   font-family: 'Montserrat';
 }
+.menu i{
+  font-size: 30px;
+}
 .menu p{
   padding-left: 5px;
   font-size: 12px;
@@ -196,7 +156,7 @@ header{
 .contact-head1{
   width: 80%;
   height: 270px;
-  background-image: url(img/マスクグループ\ 13.png);
+  background-image: url(img/mask13.png);
   background-color: rgba(0, 0, 0, .3);
   background-position: center;
   background-repeat: no-repeat;
@@ -338,7 +298,7 @@ footer p{
   }
   .contact-head1{
     height: 529px;
-    background-image: url(img/マスクグループ\ 12@2x.png);
+    background-image: url(img/mask12@2x.png);
   }
   .contact-head2{
     height: 615px;
@@ -373,7 +333,7 @@ footer p{
   }
   .contact-head1{
     height: 387px;
-    background-image: url(img/マスクグループ\ 11@2x.png);
+    background-image: url(img/mask11@2x.png);
   }
   .contact-head2{
     height: 451px;
