@@ -8,7 +8,6 @@ body{
   background-position: center;
   font-family: '遊ゴシック体';
   color: #333333;
-  width: 100%;
 }
 body.noscroll{
   overflow: hidden;
@@ -18,27 +17,6 @@ header{
   width: 100%;
   height: 500px;
   color: #fff;
-}
-.logo{
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: flex;
-  z-index: 5;
-  color: #fff;
-  padding: 15px 10px;
-}
-.mark1{
-  height: 34px;
-}
-.mark2{
-  height: 20px;
-  padding-top: 4px;
-}
-.mark3{
-  height: 10px;
-  padding-top: 14px;
-  margin-left: 5px;
 }
 .nav-links{
   position: fixed;
@@ -81,6 +59,37 @@ header{
 }
 .nav-active{
   transform: translateX(0%);
+}
+
+.logo{
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  z-index: 5;
+  color: #fff;
+  padding: 15px 10px;
+}
+.logo{
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  z-index: 5;
+  color: #fff;
+  padding: 15px 10px;
+}
+.mark1{
+  height: 34px;
+}
+.mark2{
+  height: 20px;
+  padding-top: 4px;
+}
+.mark3{
+  height: 10px;
+  padding-top: 14px;
+  margin-left: 5px;
 }
 .menu{
   display: flex;
@@ -159,7 +168,7 @@ main{
   margin-bottom: 200px;
 }
 .vision{
-  width: 100%;
+  max-width: 500px;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
@@ -245,7 +254,7 @@ main{
   margin: 30px auto;
   width: 100%;
   height: 470px;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 footer{
