@@ -1,22 +1,29 @@
-'use strict'
-{
-//   const navSlider = () => {
-//     const navLinks = document.querySelector('.nav-links');
-//     const burger = document.querySelector('.burger');
-//     const body = document.querySelector('body');
-  
-//     burger.addEventListener('click', () => {
-//       navLinks.classList.toggle('nav-active');
-//       // burger animation
-//       burger.classList.toggle('toggle');
-//       body.classList.toggle('noscroll')
-//     });
-//   }
-// navSlider();
-
-  $('.burger').on('click', function(){
-    $('.nav-links').toggleClass('nav-active');
-    $(this).toggleClass('toggle');
-    $('body').toggleClass('noscroll')
-  });
+$('.burger').on('click', function(){
+  $('.nav-links').toggleClass('nav-active');
+  $(this).toggleClass('toggle');
+  $('body').toggleClass('noscroll')
+});
+$('.nav-links li').on('click', function(){
+  $('.nav-links').removeClass('nav-active');
+  $('.burger').removeClass('toggle')
+  $('body').removeClass('noscroll');
+});
+const smooth = () => {
+  // スムーススクロール
+  const smoothScrollTrigger = document.querySelectorAll('#smooth');
+  for (let i = 0; i < smoothScrollTrigger.length; i++){
+    smoothScrollTrigger[i].addEventListener('click', (e) => {
+      e.preventDefault();
+      let href = smoothScrollTrigger[i].getAttribute('href');
+      let targetElement = document.getElementById(href.replace('#', ''));
+      const rect = targetElement.getBoundingClientRect().top;
+      const offset = window.pageYOffset;
+      const target = rect + offset;
+      window.scrollTo({
+        top: target,
+        behavior: 'smooth',
+      });
+    });
+  }
 }
+smooth();
