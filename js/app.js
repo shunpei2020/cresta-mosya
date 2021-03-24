@@ -8,6 +8,7 @@ $('.nav-links li').on('click', function(){
   $('.burger').removeClass('toggle')
   $('body').removeClass('noscroll');
 });
+
 const smooth = () => {
   // スムーススクロール
   const smoothScrollTrigger = document.querySelectorAll('#smooth');
