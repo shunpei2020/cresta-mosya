@@ -1,25 +1,28 @@
-img{
+img {
   width: 100%;
   vertical-align: bottom;
 }
-body{
+
+body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   font-family: '遊ゴシック体';
   color: #333333;
-  width: 100%;
 }
-body.noscroll{
+
+body.noscroll {
   overflow: hidden;
 }
-header{
+
+header {
   position: relative;
   width: 100%;
   height: 425px;
   color: #fff;
 }
-.logo{
+
+.logo {
   position: fixed;
   top: 0;
   left: 0;
@@ -28,19 +31,23 @@ header{
   color: #fff;
   padding: 15px 10px;
 }
-.mark1{
+
+.mark1 {
   height: 34px;
 }
-.mark2{
+
+.mark2 {
   height: 20px;
   padding-top: 4px;
 }
-.mark3{
+
+.mark3 {
   height: 10px;
   padding-top: 14px;
   margin-left: 5px;
 }
-.nav-links{
+
+.nav-links {
   position: fixed;
   top: 0;
   right: 0;
@@ -51,39 +58,46 @@ header{
   transition: transform .5s ease-in;
   z-index: 7;
 }
-.nav-links div{
+
+.nav-links div {
   text-align: right;
 }
-.nav-links i{
+
+.nav-links i {
   font-size: 30px;
   padding: 10px;
 }
-.nav-links ul{
+
+.nav-links ul {
   display: flex;
   flex-direction: column;
   width: 60%;
   margin: 70px auto;
   text-align: center;
 }
-.nav-links img{
+
+.nav-links img {
   width: 100px;
   height: 100px;
 }
-.nav-links li{
+
+.nav-links li {
   list-style: none;
   margin-top: 30px;
   font-size: 20px;
   letter-spacing: .1em;
 }
-.nav-links a{
+
+.nav-links a {
   text-decoration: none;
   color: #fff;
 }
-.nav-active{
+
+.nav-active {
   transform: translateX(0%);
 }
 
-.menu{
+.menu {
   display: flex;
   justify-content: center;
   position: fixed;
@@ -96,27 +110,33 @@ header{
   align-items: center;
   font-family: 'Montserrat';
 }
-.burger div{
+
+.burger div {
   width: 25px;
   height: 3px;
   margin: 5px;
   background-color: #fff;
   transition: all 0.3s ease;
 }
-.toggle .line1{
-  transform: rotate(-45deg) translate(-5px,6px);
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
 }
-.toggle .line2{
+
+.toggle .line2 {
   opacity: 0;
 }
-.toggle .line3{
-  transform: rotate(45deg) translate(-5px,-6px);
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
 }
-.menu p{
+
+.menu p {
   padding-left: 5px;
   font-size: 12px;
 }
-.contact-head1{
+
+.contact-head1 {
   width: 80%;
   height: 270px;
   background-image: url(../img/mask13.png);
@@ -130,7 +150,8 @@ header{
   left: 0;
   z-index: 2;
 }
-.contact-head2{
+
+.contact-head2 {
   background-color: #222222;
   width: 55%;
   height: 365px;
@@ -139,42 +160,49 @@ header{
   right: 0;
   z-index: 1;
 }
-.contact-catch{
+
+.contact-catch {
   position: absolute;
   z-index: 6;
   top: 130px;
   right: 20px;
 }
-.contact-catch h1{
+
+.contact-catch h1 {
   font-family: 'Montserrat';
   font-size: 52px;
   letter-spacing: .05em;
   margin-bottom: 15px;
 }
-.contact-catch p{
+
+.contact-catch p {
   text-align: right;
 }
-.detail{
+
+.detail {
   width: 345px;
   margin: 40px auto;
   font-size: 14px;
   line-height: 1.8em;
 }
 
-main{
+main {
   max-width: 345px;
   margin: 0 auto;
 }
-form{
+
+form {
   width: 100%;
   margin: 20px auto;
 }
-form h3{
+
+form h3 {
   color: #333333;
   font-size: 16px;
   margin-bottom: 10px;
 }
-form h3 span{
+
+form h3 span {
   font-weight: 100;
   font-size: 12px;
   color: #fff;
@@ -182,17 +210,21 @@ form h3 span{
   padding: 3px;
   margin-left: 5px;
 }
-input[type='radio']{
+
+input[type='radio'] {
   margin: 10px 10px;
 }
-.text p{
+
+.text p {
   margin: 35px 0 10px;
 }
-.text input{
+
+.text input {
   width: 100%;
   height: 48px;
 }
-.text span{
+
+.text span {
   font-weight: 100;
   font-size: 12px;
   color: #fff;
@@ -200,15 +232,18 @@ input[type='radio']{
   padding: 3px;
   margin-left: 5px;
 }
-.text textarea{
+
+.text textarea {
   width: 100%;
   height: 210px;
 }
-form > p{
+
+form>p {
   font-family: 'Montserrat';
   margin: 35px 0 10px;
 }
-.policy{
+
+.policy {
   width: 345px;
   height: 226px;
   border: 1px solid#525252;
@@ -217,19 +252,21 @@ form > p{
   margin-bottom: 35px;
   color: #333333;
 }
-.policy p{
+
+.policy p {
   line-height: 1.8em;
 }
-.policy p + p{
+
+.policy p+p {
   margin-top: 20px;
 }
 
-.agree{
+.agree {
   position: relative;
   height: 200px;
 }
 
-.btn{
+.btn {
   width: 160px;
   height: 36px;
   top: 50px;
@@ -243,81 +280,101 @@ form > p{
   position: absolute;
 }
 
-footer{
+footer {
   background-color: #525252;
   text-align: center;
   font-family: 'Montserrat';
   height: 50px;
   width: 100%;
 }
-footer p{
+
+footer p {
   line-height: 50px;
   color: #fff;
   font-size: 10px;
 }
-@media  (min-width: 480px) {
-  header{
+
+@media (min-width: 480px) {
+  header {
     height: 630px;
   }
-  .contact-head1{
+
+  .contact-head1 {
     height: 529px;
     background-image: url(../img/mask12@2x.png);
   }
-  .contact-head2{
+
+  .contact-head2 {
     height: 615px;
   }
-  .contact-catch{
+
+  .contact-catch {
     right: 40px;
   }
-  .contact-catch p{
+
+  .contact-catch p {
     text-align: left;
   }
-  .detail{
+
+  .detail {
     margin-top: 80px;
     width: 668px;
     font-size: 16px;
   }
-  main{
+
+  main {
     max-width: 668px;
   }
-  br{
+
+  br {
     display: none;
   }
-  .policy{
+
+  .policy {
     width: 668px;
   }
-  .agree{
+
+  .agree {
     text-align: center;
   }
 }
+
 @media (min-width: 768px) {
-  header{
+  header {
     height: 540px;
   }
-  .nav-links{
+
+  .nav-links {
     width: 40%;
   }
-  .contact-head1{
+
+  .contact-head1 {
     height: 387px;
     background-image: url(../img/mask11@2x.png);
   }
-  .contact-head2{
+
+  .contact-head2 {
     height: 451px;
   }
-  .contact-catch{
+
+  .contact-catch {
     right: 155px;
   }
-  .contact-catch h1{
+
+  .contact-catch h1 {
     font-size: 72px;
   }
-  .contact-catch p{
+
+  .contact-catch p {
     text-align: left;
     font-size: 20px;
   }
-  main{
+
+  main {
     max-width: 700px;
   }
-  .policy{
+
+  .policy {
     width: 700px;
   }
 }
