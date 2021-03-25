@@ -10,7 +10,6 @@ body {
   background-position: center;
   font-family: '遊ゴシック体';
   color: #333333;
-  width: 100vh;
 }
 
 body.noscroll {
