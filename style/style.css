@@ -33,7 +33,7 @@ header {
   width: 70%;
   transform: translateX(100%);
   transition: transform .5s ease-in;
-  z-index: 7;
+  z-index: 8;
 }
 
 .nav-links div {
@@ -79,9 +79,14 @@ header {
   top: 0;
   left: 0;
   display: flex;
-  z-index: 5;
+  z-index: 9;
   color: #fff;
   padding: 15px 10px;
+}
+
+.logo.black {
+  background-color: #333;
+  transition: background-color .3s;
 }
 
 .mark1 {
@@ -104,7 +109,7 @@ header {
   position: fixed;
   top: 0;
   right: 20px;
-  z-index: 8;
+  z-index: 9;
   color: #fff;
   padding: 20px 20px;
   align-items: center;
@@ -117,6 +122,16 @@ header {
   margin: 5px;
   background-color: #fff;
   transition: all 0.3s ease;
+}
+
+.burger.black div {
+  background-color: #333;
+  transition: background-color .3s;
+}
+
+.menu.black {
+  color: #333;
+  transition: color .3s;
 }
 
 .toggle .line1 {
@@ -134,6 +149,17 @@ header {
 .menu p {
   padding-left: 5px;
   font-size: 12px;
+}
+
+.burger-mask {
+  display: none;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .5);
+  z-index: 7;
 }
 
 .head1 {

@@ -31,7 +31,7 @@ header {
   width: 70%;
   transform: translateX(100%);
   transition: transform .5s ease-in;
-  z-index: 7;
+  z-index: 8;
 }
 
 .nav-links div {
@@ -77,19 +77,14 @@ header {
   top: 0;
   left: 0;
   display: flex;
-  z-index: 5;
+  z-index: 9;
   color: #fff;
   padding: 15px 10px;
 }
 
-.logo {
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: flex;
-  z-index: 5;
-  color: #fff;
-  padding: 15px 10px;
+.logo.black {
+  background-color: #333;
+  transition: background-color .3s;
 }
 
 .mark1 {
@@ -112,7 +107,7 @@ header {
   position: fixed;
   top: 0;
   right: 20px;
-  z-index: 8;
+  z-index: 9;
   color: #fff;
   padding: 20px 20px;
   align-items: center;
@@ -125,6 +120,16 @@ header {
   margin: 5px;
   background-color: #fff;
   transition: all 0.3s ease;
+}
+
+.burger.black div {
+  background-color: #333;
+  transition: background-color .3s;
+}
+
+.menu.black {
+  color: #333;
+  transition: color .3s;
 }
 
 .toggle .line1 {
@@ -142,6 +147,17 @@ header {
 .menu p {
   padding-left: 5px;
   font-size: 12px;
+}
+
+.burger-mask {
+  display: none;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .5);
+  z-index: 7;
 }
 
 .about-head1 {
@@ -294,10 +310,18 @@ main {
 }
 
 .map {
-  margin: 30px auto;
+  margin: 50px auto;
+  position: relative;
   width: 100%;
-  height: 470px;
-  overflow: hidden;
+  height: 0;
+  padding-top: 140%;
+}
+
+.map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 footer {
@@ -315,6 +339,10 @@ footer p {
 }
 
 @media (min-width: 480px) {
+  main {
+    margin-bottom: 50px;
+  }
+
   header {
     height: 650px;
   }
@@ -370,7 +398,8 @@ footer p {
   }
 
   .map {
-    margin-bottom: 50px;
+    padding-top: 32.7%;
+    overflow: hidden;
   }
 }
 
