@@ -21,6 +21,7 @@ $(function() {
   $('.nav-links li').on('click', function(){
   $('.nav-links').removeClass('nav-active');
   $('.burger').removeClass('toggle')
+  $('.burger-mask').fadeToggle('300');
   $('body').removeClass('noscroll');
   });
 
