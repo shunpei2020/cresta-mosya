@@ -142,8 +142,8 @@ main {
   width: 100%;
   margin-left: 50%;
   margin-right: auto;
-  -webkit-transform: translateX(-75%);
-          transform: translateX(-75%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 @media screen and (min-width: 480px) {
