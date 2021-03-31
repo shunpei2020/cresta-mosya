@@ -2,93 +2,97 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>cresta</title>
-  <link rel="stylesheet" href="style/reset.css">
-  <link rel="stylesheet" href="style/style.css">
+  <title>cresta2</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/top-page.css">
 </head>
 <body>
-  <span class="burger-mask"></span>
-  <header>
-    <div class="logo">
-      <img class="mark1" src="img/mask1@2x.png" alt="">
-      <img class="mark2" src="img/DIGSMILE.png" alt="">
-      <img class="mark3" src="img/INC..png" alt="">
-    </div><!-- logo -->
-    <div class="menu">
+  <span class="burger-musk"></span>
+  <header class="header">
+    <a href="#home">
+      <div class="header-logo">
+        <img class="mark1" src="img/mask1@2x.png" alt="ロゴ">
+        <img class="mark2" src="img/DIGSMILE.png" alt="ロゴ２">
+        <img class="mark3" src="img/INC..png" alt="ロゴ３">
+      </div><!-- /.header-logo -->
+    </a>
+    <div class="header-menu">
       <div class="burger">
         <div class="line1"></div>
         <div class="line2"></div>
         <div class="line3"></div>
-      </div><!-- burger -->
+      </div><!-- /.burger -->
       <p>MENU</p>
-    </div><!-- menu -->
+    </div><!-- /.header--menu -->
     <div class="nav-links" id="links">
       <ul>
-        <li><img src="img/mask1@2x.png" alt=""></li>
-        <li><a href="#about" id="smooth">ABOUT US</a></li>
-        <li><a href="#works" id="smooth">WORKS</a></li>
-        <li><a href="#culture" id="smooth">CULTURE</a></li>
-        <li><a href="#topics" id="smooth">TOPICS</a></li>
-        <li><a href="#contact" id="smooth">CONTACT</a></li>
+        <li><a href="#home"><img src="img/mask1@2x.png" alt="ロゴ"></a></li>
+        <li><a href="#about">ABOUT US</a></li>
+        <li><a href="#works">WORKS</a></li>
+        <li><a href="#culture">CULTURE</a></li>
+        <li><a href="#topics">TOPICS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
       </ul>
-    </div><!-- nav-links -->
-    <div class="head">
-      <div class="head1 kv-wrapper"></div>
-      <div class="head2 fv"></div>
-      <div class="catch">
+    </div><!-- /.nav-links -->
+  </header><!-- /.header -->
+  <section class="home" id="home">
+    <div class="home-inner">
+      <div class="home-head1 kv-wrapper"></div>
+      <div class="home-head2 fv"></div>
+      <div class="home-catch">
         <h3 class="top">デザインで人を笑顔にする会社</h3>
         <h3 class="top2">DIGSMILE INC.</h3>
         <h1>DESIGN<br>
             FOR<br>
             SMILE. 
         </h1>
-      </div><!-- catch -->
-    </div><!-- head -->
-  </header>
-  <div>
-  <section class="sec01" id="about">
-    <div class="about-us">
+      </div><!-- /.home-catch -->
+    </div><!-- /.home-inner -->
+  </section><!-- /.home -->
+  <section class="about" id="about">
+    <div class="about-inner">
       <h2>ABOUT US</h2>
-      <div class="detail">
+      <div class="about-detail">
         <p>DIGSMILEは、デザインで人を絵がをにする会社。</p>
         <p>なんでもない日常に少しワクワクと遊び心を提供します。笑顔には世界を変える力がある、デザインには人を幸せにする力がある。毎日に幸せを感じて生きていきたい。</p>
         <p>DIGSMILEの社名にはそんな想いが込められています。</p>
-      </div><!-- detail -->
+      </div><!-- /.home-detail -->
       <div class="more">
         <a href="about.html">READ MORE</a>
-      </div><!-- more -->
-    </div><!-- about-us -->
-  </section><!-- sec01 -->
-  <main>
-    <div class="box">
-      <section class="sec02" id="works">
-        <div class="works">
+      </div><!-- /.about-more -->
+    </div><!-- about-inner -->
+  </section><!-- /.about -->
+
+  <div class="main-wrapper">
+    <div class="wrapper">
+      <section class="works" id="works">
+        <div class="works-inner">
           <h2>WORKS</h2>
-          <img src="img/mask3-min.png" alt="">
+          <img src="img/mask3-min.png" alt="logo">
           <p>DIGSMILEの制作実績を紹介します。</p>
           <div class="more">
             <a href="">READ MORE</a>
           </div><!-- more -->
-        </div><!-- works -->
-      </section><!-- sec02 -->
-
-      <section class="sec03" id="culture">
-        <div class="culture">
+        </div><!-- /.works-inner -->
+      </section><!-- /.works -->
+      <section class="culture" id="culture">
+        <div class="culture-inner">
           <h2>CULTURE</h2>
-          <img src="img/culture-img@2x-min.png" alt="">
+          <img src="img/culture-img@2x-min.png" alt="culture">
           <p>DIGSMILEの社内文化について紹介します。</p>
           <div class="more">
             <a href="">READ MORE</a>
           </div><!-- more -->
-        </div><!-- culture -->
-      </section><!-- sec03 -->
-    </div>
-  </div>
-    <section class="sec04" id="topics">
-      <div class="latest-topics">
+        </div><!-- /.culture-inner -->
+      </section><!-- /.culture -->
+    </div><!-- /.wrapper -->
+
+    <section class="topics" id="topics">
+      <div class="topics-latest">
         <h2>LATEST TOPICS</h2>
-        <div class="topics">
+        <div class="topics-item">
           <div>
             <p class="date">2020.02.01</p>
             <p>イベントレポート「VRクリエイター座談会 〜5gの次に来るもの〜」</p>
@@ -103,34 +107,35 @@
           </div>
           <div class="more">
             <a href="">READ MORE</a>
-          </div><!-- more -->
-        </div><!-- topics -->
-      </div><!-- latest-topics -->
-    </section><!-- sec04 -->
-  </main>
-    <section class="sec05" id="contact">
-      <div class="contact">
-        <div class="im">
-          <img src="img/mask5@2x-min.png" alt="">
-        </div><!-- im -->
-        <div class="c">
+          </div><!-- /.more -->
+        </div><!-- /.topics-item -->
+      </div><!-- /.topics-latest -->
+    </section><!-- /.topics -->
+  </div><!-- /.main-wrapper -->
+    <section class="contact" id="contact">
+      <div class="contact-inner">
+        <div class="contact-main">
+          <img src="img/mask5@2x-min.png" alt="contact">
+        </div><!-- /.contact-main -->
+        <div class="contact-c">
           <h2>CONTACT</h2>
-          <div class="content">
+          <div class="contact-content">
             <p>制作の依頼、取材の依頼、IRや採用についての連絡・お問い合わせはコンタクトページから承っております。</p>
             <p>まずはお気軽にご連絡ください。担当者から改めて返信いたします。</p>
           </div>
         <div class="more">
           <a href="contact.html">READ MORE</a>
         </div><!-- more -->
-        </div><!-- c -->
-    </div><!-- contact -->
-  </section>
+        </div><!-- /.contact-c -->
+      </div><!-- /.contact-inner -->
+    </section><!-- /.contact -->
 
-  <footer>
-    <p>©︎2018 DIGSMILE INC.</p>
-  </footer>
-
+    <footer>
+      <p>©︎2018 DIGSMILE INC.</p>
+    </footer>
+  
   <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-  <script src="js/app.js"></script>
+  <script src="js/header.js"></script>
+  <script src="js/smooth.js"></script>
 </body>
 </html>

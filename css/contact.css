@@ -1,0 +1,273 @@
+.home {
+  position: relative;
+  width: 100%;
+  height: 425px;
+  color: #fff;
+}
+
+@media screen and (min-width: 480px) {
+  .home {
+    height: 630px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home {
+    height: 540px;
+  }
+}
+
+.home-head1 {
+  width: 80%;
+  height: 270px;
+  background-image: url(../img/mask13.png);
+  background-color: rgba(0, 0, 0, 0.3);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+@media screen and (min-width: 480px) {
+  .home-head1 {
+    height: 529px;
+    background-image: url(../img/mask12@2x.png);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home-head1 {
+    height: 387px;
+    background-image: url(../img/mask11@2x.png);
+  }
+}
+
+.home-head2 {
+  background-color: #222222;
+  width: 55%;
+  height: 365px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+@media screen and (min-width: 480px) {
+  .home-head2 {
+    height: 615px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home-head2 {
+    height: 451px;
+  }
+}
+
+.home-catch {
+  position: absolute;
+  z-index: 6;
+  top: 130px;
+  right: 20px;
+}
+
+@media screen and (min-width: 480px) {
+  .home-catch {
+    right: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home-catch {
+    right: 155px;
+  }
+}
+
+.home-catch h1 {
+  font-family: 'Montserrat';
+  font-size: 52px;
+  letter-spacing: .05em;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-catch h1 {
+    font-size: 72px;
+  }
+}
+
+.home-catch p {
+  text-align: right;
+}
+
+@media screen and (min-width: 480px) {
+  .home-catch p {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home-catch p {
+    text-align: left;
+    font-size: 20px;
+  }
+}
+
+.detail {
+  width: 90%;
+  margin: 40px auto;
+  font-size: 14px;
+  line-height: 1.8em;
+  padding: 10px;
+}
+
+@media screen and (min-width: 480px) {
+  .detail {
+    width: 80%;
+    margin-top: 80px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .detail {
+    width: 60%;
+  }
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 480px) {
+  main {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    width: 700px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  br {
+    display: none;
+  }
+}
+
+.form {
+  width: 100%;
+  margin: 20px auto;
+}
+
+.form h3 {
+  color: #333333;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.form h3 span {
+  font-weight: 100;
+  font-size: 12px;
+  color: #fff;
+  background-color: #333333;
+  padding: 3px;
+  margin-left: 5px;
+}
+
+.form input[type='radio'] {
+  margin: 10px 10px;
+}
+
+.form-text p {
+  margin: 35px 0 10px;
+  font-weight: bold;
+}
+
+.form-text input {
+  width: 100%;
+  height: 48px;
+}
+
+.form-text span {
+  font-weight: 100;
+  font-size: 12px;
+  color: #fff;
+  background-color: #333333;
+  padding: 3px;
+  margin-left: 5px;
+}
+
+.form-text textarea {
+  width: 100%;
+  height: 210px;
+}
+
+.form-privacy {
+  font-family: 'Montserrat';
+  margin: 35px 0 10px;
+}
+
+.form-policy {
+  width: 100%;
+  height: 226px;
+  border: 1px solid #525252;
+  overflow: scroll;
+  padding: 10px 2px;
+  margin-bottom: 35px;
+  color: #333333;
+}
+
+@media screen and (min-width: 480px) {
+  .form-policy {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .form-policy {
+    width: 700px;
+  }
+}
+
+.form-policy p {
+  line-height: 1.8em;
+}
+
+.form-policy p + p {
+  margin-top: 20px;
+}
+
+.form-agree {
+  position: relative;
+  height: 200px;
+}
+
+@media screen and (min-width: 480px) {
+  .form-agree {
+    text-align: center;
+  }
+}
+
+.form .btn {
+  width: 160px;
+  height: 36px;
+  top: 50px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  margin: 35px auto 50px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  position: absolute;
+}
+/*# sourceMappingURL=contact.css.map */
