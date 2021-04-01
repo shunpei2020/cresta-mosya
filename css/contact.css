@@ -192,7 +192,7 @@ main {
 }
 
 .form-text input {
-  width: 100%;
+  width: 98%;
   height: 48px;
 }
 
@@ -206,7 +206,7 @@ main {
 }
 
 .form-text textarea {
-  width: 100%;
+  width: 98%;
   height: 210px;
 }
 
@@ -248,10 +248,12 @@ main {
 .form-agree {
   position: relative;
   height: 200px;
+  font-size: 16px;
 }
 
 @media screen and (min-width: 480px) {
   .form-agree {
+    font-size: 12px;
     text-align: center;
   }
 }
