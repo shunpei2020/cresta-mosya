@@ -6,7 +6,7 @@ $(function() {
     if ($(window).scrollTop() < imgHeight -50) {
       $('.nav-links').toggleClass('nav-active');
       $(this).toggleClass('toggle');
-      $('.burger-msk').fadeToggle('300');
+      $('.burger-musk').fadeToggle('300');
       $('body').toggleClass('noscroll');
     } else {
       $(this).toggleClass('black');
